@@ -4,6 +4,7 @@
   "description": "Backend for Slack bot",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon -r esm app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "dependencies": {
     "esm": "^3.2.25",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   }
 }
